@@ -1862,7 +1862,7 @@
           "none"
         ],
         "model_id": "codellama/CodeLlama-13b-Instruct-hf",
-        "model_revision": "ff0983bc4267bb98ead4fb5168fe2f049b442787"
+        "model_revision": "cebb11eacbeecb9189e910d57a8faeadb949978f"
       },
       {
         "model_format": "pytorch",
@@ -1874,6 +1874,17 @@
         ],
         "model_id": "codellama/CodeLlama-34b-Instruct-hf",
         "model_revision": "38a1e15d8524a1f0a7760a7acf8242b81ae4eb87"
+      },
+            {
+        "model_format": "pytorch",
+        "model_size_in_billions": 70,
+        "quantizations": [
+          "4-bit",
+          "8-bit",
+          "none"
+        ],
+        "model_id": "codellama/CodeLlama-70b-Instruct-hf",
+        "model_revision": "6b762a8d3c16e4397aaa4f4627ebfda5db098831"
       },
       {
         "model_format": "ggufv2",
